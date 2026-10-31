@@ -1,6 +1,6 @@
 cask "xdface-notepad" do
-  version "0.1.14"
-  sha256 "d4d871a03b6d95e27f2d31342ed1a1b9b75590e57b4f9ccdfe71f0931cbf03ff"
+  version "0.1.15"
+  sha256 "0eb260f1df34bdadeedfe6085acf6fcc698527579a9fe877bac3ef25811c107d"
 
   url "https://github.com/xvierd/homebrew-tap/releases/download/notepad-v#{version}/Notepad_#{version}_aarch64.dmg"
   name "Notepad"
@@ -8,7 +8,7 @@ cask "xdface-notepad" do
   homepage "https://notepad.xdface.net/"
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "Notepad.app"
 
