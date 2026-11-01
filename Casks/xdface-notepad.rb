@@ -1,6 +1,6 @@
 cask "xdface-notepad" do
-  version "0.1.19"
-  sha256 "5e2b9f81be5e07bc67a880a8171fda596d476476232df659cb6451514d3c63a7"
+  version "0.1.20"
+  sha256 "e6c06bac45288e27b3082bf26b38f55dcb1197a10f9d4d869fa86e3596c17bd0"
 
   url "https://github.com/xvierd/homebrew-tap/releases/download/notepad-v#{version}/Notepad_#{version}_aarch64.dmg"
   name "Notepad"
